@@ -1,4 +1,4 @@
-# ポケモン+ノブナガの野望 NDS 한국어 패치 v1.0
+# ポケモン+ノブナガの野望 NDS 한국어 패치 v1.0.1
 
 배포일: 2026-10-30
 대상: ポケモン+ノブナガの野望 일본판
@@ -17,15 +17,14 @@
 
 | 파일 | 크기(바이트) | SHA-256 |
 |---|---|---|
-| PokemonNobunaga-KO-v1.0.nds | 268,435,456 | 2d85c02d7157b1bd03c6d70b3aef131d8a8e6210cc56a78dedfb06c8ab0989d7 |
+| PokemonNobunaga-KO-v1.0.1.nds | 268,435,456 | 23555761f81640f895f92c053ee6468517440816dcc33da4c1dba1b20d6ab05f |
 
 ## 배포 파일
 
 | 파일 | 크기(바이트) | SHA-256 |
 |---|---|---|
-| PokemonNobunaga-KO-v1.0.zip | 6,470,062 | 1da26301d2679ffdd95db220005a884c4912b02182e505528eb71a322aa6a9c3 |
-| PokemonNobunaga-KO-v1.0.bps | 8,151,747 | b9667fdcdf52cedc3e849abfc341570bbd7da7cb35c7904069f66928b7a3bf1f |
-
+| PokemonNobunaga-KO-v1.0.1.zip | 6,491,062 | 4a9f35ff28d826d92d59bcd204f1cb343baf50af6bacb219c77e2dbf4c377603 |
+| PokemonNobunaga-KO-v1.0.1.bps | 8,171,997 | ec3cfebdd156887efda0b790b37246dc18646a7d0c75795cd1b185185c7385ee |
 ## 알려진 제한
 
 - **프리징(멈춤) 가능성이 있습니다.** 한글로 다시 그린 그림 일부가 일본판보다 텍스처 메모리를 더 씁니다(그래픽 파일 14개, 최대 약 7.5KB: 정보 화면, 란세 지도, 통신 화면, 성 지도, 전투 지도 등). 일본판에서도 여유가 적은 화면에서 창을 새로 열 때 메모리가 모자라면 게임이 멈출 수 있습니다.
