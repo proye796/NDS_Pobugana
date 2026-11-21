@@ -1,11 +1,9 @@
-# ポケモン+ノブナガの野望 NDS 한국어 패치 v1.0.1
+# ポケモン+ノブナガの野望 NDS 한국어 패치 v1.0.1.1
 
-배포일: 2026-10-30
-대상: ポケモン+ノブナガの野望 일본판
+배포일: 2026-11-21\
+대상: ポケモン+ノブナガの野望 일본판(NDSi Enhanced) — VPYJ, revision 0
 
-배포 ZIP에는 원본 ROM이나 패치 완료 ROM이 포함되지 않습니다. 정품에서 추출한, 아래 해시와 일치하는 일본판 NDS ROM이 필요합니다.
-
-> **알림:** 일부 화면에서 게임이 멈출(프리징) 가능성이 있습니다. 아래 [알려진 제한](#알려진-제한)을 먼저 읽어 주세요.
+배포 ZIP에는 원본 ROM이나 패치 완료 ROM이 포함되지 않습니다. 정품에서 추출한 아래 해시와 일치하는 일본판 NDS ROM이 필요합니다.
 
 ## 지원 원본
 
@@ -17,14 +15,17 @@
 
 | 파일 | 크기(바이트) | SHA-256 |
 |---|---|---|
-| PokemonNobunaga-KO-v1.0.1.nds | 268,435,456 | 23555761f81640f895f92c053ee6468517440816dcc33da4c1dba1b20d6ab05f |
+| PokemonNobunaga-KO-v1.0.1.1.nds | 268,435,456 | 2b443f71bd502ce8931d86703d5075aa436923480518d1689a9c434480b82a3d |
 
 ## 배포 파일
 
 | 파일 | 크기(바이트) | SHA-256 |
 |---|---|---|
-| PokemonNobunaga-KO-v1.0.1.zip | 6,491,062 | 4a9f35ff28d826d92d59bcd204f1cb343baf50af6bacb219c77e2dbf4c377603 |
-| PokemonNobunaga-KO-v1.0.1.bps | 8,171,997 | ec3cfebdd156887efda0b790b37246dc18646a7d0c75795cd1b185185c7385ee |
+| PokemonNobunaga-KO-v1.0.1.1.zip | 6,501,817 | e0f458ef56082393674c30e1a14843afffc52b471ab147790decaee4834a21c3 |
+| PokemonNobunaga-KO-v1.0.1.1.bps | 8,172,061 | 8c6650d38c850f84f9a3978ee737c0d1183f1c71ffbf862063b38a21d4d61766 |
+
+ZIP에는 BPS 패치, 적용 스크립트(apply_patch.py, bps.py), 설명서(README.txt), 수정 전후 내역(changes.html), manifest.json, 글꼴 라이선스(licenses/Galmuri-OFL.txt, licenses/NotoSerifCJK-OFL.txt)가 들어 있습니다. 내려받은 파일은 SHA256SUMS.txt로 확인할 수 있습니다.
+
 ## 알려진 제한
 
 - **프리징(멈춤) 가능성이 있습니다.** 한글로 다시 그린 그림 일부가 일본판보다 텍스처 메모리를 더 씁니다(그래픽 파일 14개, 최대 약 7.5KB: 정보 화면, 란세 지도, 통신 화면, 성 지도, 전투 지도 등). 일본판에서도 여유가 적은 화면에서 창을 새로 열 때 메모리가 모자라면 게임이 멈출 수 있습니다.
